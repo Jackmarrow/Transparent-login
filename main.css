@@ -1,1 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans&family=Poppins:wght@300;400;700&family=Raleway:wght@400;700&family=Ubuntu:wght@300;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Poppins','Arial',sans-serif;
+}
+
+body{
+    background-image:url('image/mountain.jpg');
+    background-size:cover;
+    background-position:center;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-container{
+    background-color:rgba(53, 57, 58, 0.849);
+    width:50%;
+    max-width:400px;
+    min-width:250px;
+    padding:2em 1.5em;
+    color:lightgray;
+}
+
+h2{
+    text-align:center;
+    color:whitesmoke;
+    font-weight:lighter;
+    margin-bottom:1.5em;
+}
+
+.input-group{
+    margin-bottom:1.5em;
+}
+
+.input-group label{
+    display:inline-block;
+    margin-bottom:.2em;
+}
+
+.input-group input{
+    width:100%;
+    font-size:1.1rem;
+    font-weight:lighter;
+    padding:.2em;
+    background-color:hsla(190, 3%, 55%, 0.5);
+    border:1px solid black;
+    color:white;
+    outline:none;
+    border-radius:3px;
+}
+
+.input-group input:focus{
+    border-color:lightskyblue;
+}
+
+.btn{
+    width:100%;
+    padding:.5em 0;
+    border-radius:3px;
+    background-color:transparent;
+    border:1px solid lightskyblue;
+    background-color:hsla(189, 23%, 50%, 0.5);
+    font-size:1.1rem;
+    font-weight:lighter;
+    color:white;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color:hsla(189, 68%, 61%, 0.5);
+}
